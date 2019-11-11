@@ -28,15 +28,15 @@ then
 fi
 
 # Versions of things (do this before config.sh so they can be config'd)
-BINUTILS_URL=http://ftpmirror.gnu.org/gnu/binutils/binutils-2.27.tar.bz2
+BINUTILS_URL=http://ftp.gnu.org/gnu/binutils/binutils-2.33.1.tar.bz2
 #BINUTILS_URL=http://mirrors.kernel.org/sourceware/binutils/snapshots/binutils-2.24.90.tar.bz2
 #last GPL2 release is 2.17, with backported  -Bsymbolic support
 #BINUTILS_URL=http://landley.net/aboriginal/mirror/binutils-2.17.tar.bz2
-GCC_VERSION=5.3.0
-GDB_VERSION=7.9.1
-GMP_VERSION=6.1.0
-MPC_VERSION=1.0.3
-MPFR_VERSION=3.1.4
+GCC_VERSION=9.2.0
+GDB_VERSION=8.3.1
+GMP_VERSION=6.1.2
+MPC_VERSION=1.1.0
+MPFR_VERSION=4.0.2
 LIBELF_VERSION=master
 # use kernel headers from vanilla linux kernel - may be necessary for porting to a bleeding-edge arch
 # LINUX_HEADERS_URL=http://www.kernel.org/pub/linux/kernel/v3.0/linux-3.12.6.tar.xz

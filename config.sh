@@ -26,9 +26,9 @@ MAKEFLAGS=-j8
 GCC_STAGE1_NOOPT=1
 
 # uncomment these to get smaller/stripped binaries
-#export CFLAGS="-Os -g0 -s"
-#export CXXFLAGS="-Os -g0"
-#export LDFLAGS="-s"
+export CFLAGS="-Os -g0 -s"
+export CXXFLAGS="-Os -g0"
+export LDFLAGS="-s"
 
 # uncomment if you want docs and other unneeded stuff removed
 #REMOVE_JUNK=yes
