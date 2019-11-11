@@ -1,0 +1,2 @@
+#!/bin/sh
+exec "${REALGCC:-cc}" "$@" -specs "/opt/cross/x86_64-linux-musl/musl-gcc.specs"
